@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    background-color: darkturquoise;
+}
+
+.container nav li {
+    display: inline;
+    margin-right: 16px;
+}
+
+.container nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+* img {
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 16px;
+}
+
+section .sparck,
+section .bolha,
+section .neos,
+section .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .center img{
+    width: 205px;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.ll form input,
+form textarea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+    width: 290px;
+}
+
+.ll form {
+    margin-top: 40px;
+}
+
+.ll form input{
+    display: block; 
+    margin-top: 9px;
+}
+
+.ll form button{
+    margin-top:7px ;
+}
+
+.top {
+    margin-top: 19px;
+}
+
+.ll{
+    display: inline-block;
+    margin-right: 165px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ll form textarea {
+    resize: none;
+    height: 25px;
+}
+
+.ll form button :hover{
+    background-color:rgb(49, 27, 187);
+}
+
+form button {
+    color:aqua;
+    background-color:black;
+    border: none;
+    height: 20px;
+    width: 46px;
+}
+input:focus, textarea:focus{
+    outline-color:aqua;
+} 
+
+.ll form select {
+    width: 120px;
+}
+
+footer{
+    font-size: 17px;
+    background-color:darkslateblue;
+    margin-top: 30px;
+    border: 18px;
+}
+
+footer p {
+    margin-left: 250px;
+}
+
+#ççl{
+    margin-left: 250px;
+}
